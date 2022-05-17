@@ -1,4 +1,5 @@
 {
+  "name": "with-markdoc",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,5 +12,11 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.32",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "4.6.4"
   }
 }
