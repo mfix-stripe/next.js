@@ -8,5 +8,5 @@ module.exports = withMarkdoc({
   mode: 'server', // 'static' | 'server',
   //schemaPath: path.join(__dirname, 'markdoc')
 })({
-  pageExtensions: ['js', 'md'],
+  pageExtensions: ['js', 'tsx', 'md'],
 })
